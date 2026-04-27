@@ -36,7 +36,7 @@ python train.py --ILmode classIL --inter-task-edges False --minibatch True --dat
 
 ## Acknowledgement
 
-This work is inspired in part by [1]. We sincerely thank the authors for their valuable contributions.
+This work is implemented based on the CGLB framework [1]. We sincerely thank the authors for their valuable contributions.
 
 ## Reference
 
