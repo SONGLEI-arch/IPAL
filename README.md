@@ -12,7 +12,20 @@ Graph Neural Networks (GNN) endure catastrophic forgetting, undermining their ca
 
 ---
 
+## 📁 Datasets
+
+We use benchmark node classification datasets including:
+
+CS-CL
+CoraFull-CL
+Arxiv-CL
+Reddit-CL
+
+---
+
 ## 🚀 Training
 
 To train IPAL on a dataset:
+
+
 
