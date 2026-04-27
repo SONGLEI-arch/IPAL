@@ -33,3 +33,11 @@ To train IPAL on a large-scale dataset (e.g., Arxiv-CL, Reddit-CL) in a mini-bat
 ```bash
 python train.py --ILmode classIL --inter-task-edges False --minibatch True --dataset <DATASET> --method ncil 
 ```
+
+## Acknowledgement
+
+This work is inspired in part by [1]. We sincerely thank the authors for their valuable contributions.
+
+## Reference
+
+[1] Zhang X, Song D, Tao D. Cglb: Benchmark tasks for continual graph learning[J]. Advances in Neural Information Processing Systems, 2022, 35: 13006-13021.
