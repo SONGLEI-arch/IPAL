@@ -22,13 +22,13 @@ CS-CL, CoraFull-CL, Arxiv-CL, Reddit-CL
 
 ## 🚀 Training
 
-To train IPAL on a small-scale dataset in a full-graph setting:
+To train IPAL on a small-scale dataset (e.g., CS-CL, CoraFull-CL) in a full-graph setting:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train.py --ILmode classIL --inter-task-edges False --minibatch False --dataset <DATASET> --method ncil
 ```
 
-To train IPAL on a large-scale dataset in a mini-batch setting:
+To train IPAL on a large-scale dataset (e.g., Arxiv-CL, Reddit-CL) in a mini-batch setting:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train.py --ILmode classIL --inter-task-edges False --minibatch True --dataset <DATASET> --method ncil 
