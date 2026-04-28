@@ -36,6 +36,4 @@ python train.py --ILmode classIL --inter-task-edges False --minibatch True --dat
 
 ## Acknowledgement
 
-This work is implemented based on the CGLB framework [1]. We sincerely thank the authors for their valuable contributions.
-
-[1] Zhang X, Song D, Tao D. Cglb: Benchmark tasks for continual graph learning[J]. Advances in Neural Information Processing Systems, 2022, 35: 13006-13021.
+This work is implemented based on [CGLB](https://github.com/QueuQ/CGLB). We sincerely thank the authors for their valuable contributions.
