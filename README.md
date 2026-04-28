@@ -14,13 +14,12 @@ Graph Neural Networks (GNN) endure catastrophic forgetting, undermining their ca
 
 We use benchmark node classification datasets including:
 
+```
 CS-CL
-
 CoraFull-CL
-
 Arxiv-CL
-
 Reddit-CL
+```
 
 ## 🚀 Training
 
