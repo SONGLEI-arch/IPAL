@@ -40,6 +40,19 @@ python train.py --ILmode classIL \
                 --method ncil
 ```
 
+## 📄 Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{song2025instance,
+  title={Instance-Prototype Affinity Learning for Non-Exemplar Continual Graph Learning},
+  author={Song, Lei and Li, Jiaxing and Guan, Shihan and Kong, Youyong},
+  journal={arXiv preprint arXiv:2505.10040},
+  year={2025}
+}
+```
+
 ## 🌟 Acknowledgement
 
 This work is implemented based on [CGLB](https://github.com/QueuQ/CGLB). We sincerely thank the authors for their valuable contributions.
