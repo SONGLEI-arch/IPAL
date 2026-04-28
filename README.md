@@ -34,6 +34,6 @@ To train IPAL on a large-scale dataset (e.g., Arxiv-CL, Reddit-CL) in a mini-bat
 python train.py --ILmode classIL --inter-task-edges False --minibatch True --dataset <DATASET> --method ncil 
 ```
 
-## Acknowledgement
+## 🌟 Acknowledgement
 
 This work is implemented based on [CGLB](https://github.com/QueuQ/CGLB). We sincerely thank the authors for their valuable contributions.
