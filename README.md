@@ -3,7 +3,7 @@
 This repository contains the official implementation of the paper: **Instance-Prototype Affinity Learning for Non-Exemplar Continual Graph Learning**.
 
 <p align="center">
-  <img src="figures/framework-1.png" width="80%"/>
+  <img src="figures/framework-1.png" width="90%"/>
 </p>
 
 ## 🔥 Overview
