@@ -1,8 +1,10 @@
 # Instance-Prototype Affinity Learning for Non-Exemplar Continual Graph Learning (IPAL)
 
-This repository contains the official implementation of the paper: **Instance-Prototype Affinity Learning for Non-Exemplar Continual Graph Learning**
+This repository contains the official implementation of the paper: **Instance-Prototype Affinity Learning for Non-Exemplar Continual Graph Learning**.
 
-![IPAL](figures/framework-1.png)
+<p align="center">
+  <img src="figures/framework-1.png" width="80%"/>
+</p>
 
 ## 🔥 Overview
 
