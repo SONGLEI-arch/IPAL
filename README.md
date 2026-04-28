@@ -15,10 +15,7 @@ Graph Neural Networks (GNN) endure catastrophic forgetting, undermining their ca
 We use benchmark node classification datasets including:
 
 ```
-CS-CL
-CoraFull-CL
-Arxiv-CL
-Reddit-CL
+CS-CL, CoraFull-CL, Arxiv-CL, Reddit-CL
 ```
 
 ## 🚀 Training
@@ -26,13 +23,21 @@ Reddit-CL
 To train IPAL on a small-scale dataset (e.g., CS-CL, CoraFull-CL) in a full-graph setting:
 
 ```bash
-python train.py --ILmode classIL --inter-task-edges False --minibatch False --dataset <DATASET> --method ncil
+python train.py --ILmode classIL \
+                --inter-task-edges False \
+                --minibatch False \
+                --dataset <DATASET> \
+                --method ncil
 ```
 
 To train IPAL on a large-scale dataset (e.g., Arxiv-CL, Reddit-CL) in a mini-batch setting:
 
 ```bash
-python train.py --ILmode classIL --inter-task-edges False --minibatch True --dataset <DATASET> --method ncil 
+python train.py --ILmode classIL \
+                --inter-task-edges False \
+                --minibatch True \
+                --dataset <DATASET> \
+                --method ncil
 ```
 
 ## 🌟 Acknowledgement
